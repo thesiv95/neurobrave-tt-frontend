@@ -10,7 +10,7 @@ const delay = (delaySec) => {
 }
 
 
-const myWs = new WebSocket('ws://localhost:9000');
+const myWs = new WebSocket('ws://64d6077116cca64bd6ac6f6f--storied-choux-49f73e.netlify.app/:9000');
 myWs.onopen = function () {
     console.log('I am connected');
 };
